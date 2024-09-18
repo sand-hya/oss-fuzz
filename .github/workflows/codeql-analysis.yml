@@ -2,11 +2,11 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ master ]
+    branches: [ alpha_release ]
     paths: [infra/**, .github/**]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ master ]
+    branches: [ alpha_release ]
     paths: [infra/**, .github/**]
 
 jobs:
