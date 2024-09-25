@@ -12,7 +12,7 @@ on:
   # schedule:
   #   - cron: '22 15 * * 2'
   push:
-    branches: [ "alpha_tavos" ]
+    branches: [ "alpha_tavoss" ]
 
 # Declare default permissions as read only.
 permissions: read-all
